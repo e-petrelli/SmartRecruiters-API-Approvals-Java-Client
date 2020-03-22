@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.smartrecruiters.api</groupId>
-    <artifactId>smartrecruiters-api-approvals-client</artifactId>
+    <artifactId>smartrecruiters-api-approvals-java-client</artifactId>
     <packaging>jar</packaging>
     <name>SmartRecruiters API Approvals Client</name>
     <version>1.0.0</version>
@@ -123,5 +123,15 @@
         <junit-version>4.12</junit-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub e-petrelli Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/e-petrelli/smartrecruiters-api-approvals-java-client</url>
+        </repository>
+    </distributionManagement>
+
 </project>
 
